@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MegaSpoon</title>
+<style>
+  :root { color-scheme: light dark; --accent: #fa6b4a; --ink: #111; --muted: #6b6b70; --card: #f4f2f6; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #f4f4f6; --muted: #a0a0a8; --card: #232028; } }
+  body { margin: 0; font-family: -apple-system, system-ui, "SF Pro Text", sans-serif; background: linear-gradient(160deg, #fe7f52 0%, #e64d57 55%, #6b2a4c 100%); min-height: 100vh; display: grid; place-items: center; color: var(--ink); }
+  .card { background: var(--card); border-radius: 24px; padding: 28px 24px; width: min(420px, calc(100vw - 32px)); box-shadow: 0 24px 60px rgba(0,0,0,.25); text-align: center; }
+  .logo { width: 84px; height: 84px; border-radius: 20px; margin: 0 auto 14px; background: linear-gradient(140deg, #fe7f52, #e64d57 60%, #6b2a4c); display: grid; place-items: center; }
+  h1 { font-size: 22px; margin: 6px 0 4px; }
+  p { color: var(--muted); margin: 6px 0 18px; line-height: 1.4; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo">
+    <svg width="56" height="56" viewBox="0 0 100 100" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="7">
+      <line x1="30" y1="82" x2="66" y2="34"/>
+      <ellipse cx="72" cy="26" rx="14" ry="10" fill="#fff" stroke="none" transform="rotate(-53 72 26)"/>
+    </svg>
+  </div>
+  <h1>MegaSpoon</h1>
+  <p>Pick an outing, pull the spoon lever, get one place. Locked for an hour unless you show up.</p>
+  <p><a href="privacy.html">Privacy &amp; support</a></p>
+</div>
+</body>
+</html>
